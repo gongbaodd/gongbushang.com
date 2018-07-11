@@ -1,4 +1,4 @@
-# gongbushang.nuxt
+# gongbushang.com
 
 ## Description
 
@@ -16,23 +16,9 @@ $ npm install
 # development
 $ npm run start
 
-# watch mode
+# watch mode Only server
 $ npm run start:dev
 
 # production mode
-npm run start:prod
+npm run prd
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
