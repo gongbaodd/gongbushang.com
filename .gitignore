@@ -1,0 +1,8 @@
+/node_modules
+/.nuxt
+/dist
+/server
+/public
+bundle.tgz
+sync.sh
+/data
