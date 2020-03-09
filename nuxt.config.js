@@ -2,6 +2,9 @@ import vuetify from "./config/vuetify.ts";
 import head from "./config/head.ts";
 import server from "./config/server.ts";
 import generate from "./config/generate.ts";
+import optimizedImages from "./config/optimizedImages.ts";
+import sentry from "./config/sentry.ts";
+import googleAnalytics from "./config/googleAnalytics.ts";
 
 export default {
   mode: "spa",
@@ -12,13 +15,19 @@ export default {
   buildModules: [
     "@nuxt/typescript-build",
     "@nuxtjs/vuetify",
-    "@nuxtjs/eslint-module"
+    "@nuxtjs/eslint-module",
+    "@bazzite/nuxt-optimized-images",
+    "@nuxtjs/sentry",
+    "@nuxtjs/google-analytics"
   ],
   modules: ["@nuxtjs/pwa", "@nuxtjs/dotenv"],
   vuetify,
+  server,
+  generate,
+  optimizedImages,
+  sentry,
+  googleAnalytics,
   build: {
     extend(config, ctx) {}
-  },
-  server,
-  generate
+  }
 };
