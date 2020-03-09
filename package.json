@@ -64,6 +64,7 @@
     "test": "echo 'text'",
     "commit": "git-cz",
     "cp:cname": "sh ./scripts/cp_cname.sh",
+    "deploy:coding": "sh ./scripts/deploy_to_coding.sh",
     "deploy": "gh-pages -d www -r https://$GH_TOKEN@github.com/gongbaodd/gongbushang.com.git -b master"
   }
 }
