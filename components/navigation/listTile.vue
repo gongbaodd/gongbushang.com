@@ -1,17 +1,17 @@
 <template>
-  <v-list-tile>
-    <v-btn flat block large rounded color="indigo darken-1s" :to="item.url">
-      <v-list-tile-action>
+  <v-list-item>
+    <v-btn text block large rounded color="indigo darken-1s" :to="item.url">
+      <v-list-item-icon>
         <v-icon>{{ item.icon }}</v-icon>
-      </v-list-tile-action>
+      </v-list-item-icon>
 
-      <v-list-tile-content>
-        <v-list-tile-title class="item-title">
+      <v-list-item-content>
+        <v-list-item-title class="item-title">
           {{ item.title }}
-        </v-list-tile-title>
-      </v-list-tile-content>
+        </v-list-item-title>
+      </v-list-item-content>
     </v-btn>
-  </v-list-tile>
+  </v-list-item>
 </template>
 <script lang="ts">
 import Vue from "vue";

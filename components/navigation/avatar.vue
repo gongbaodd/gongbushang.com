@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar flat height="128px" color="text--darken-3" class="drawer-toolbar">
+  <v-toolbar text height="128px" color="text--darken-3" class="drawer-toolbar">
     <v-toolbar-title>
       <v-avatar class="mx-auto indigo lighten-5 avatar" size="84">
         <img
@@ -8,7 +8,7 @@
       </v-avatar>
     </v-toolbar-title>
     <v-toolbar-title style="margin-left:0;">
-      <v-btn flat rounded class="name indigo--text text--lighten-5" to="/root"
+      <v-btn text rounded class="name indigo--text text--lighten-5" to="/root"
         >宫不上</v-btn
       >
     </v-toolbar-title>

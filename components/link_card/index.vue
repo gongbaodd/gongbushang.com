@@ -2,16 +2,11 @@
   <v-flex xs12 sm6 lg4 mt-5>
     <v-card>
       <v-layout row>
-        <v-card-media class="link-card-media" :style="iconStyle">
-          <v-icon v-if="icon" class="icon">
-            {{ icon }}
-          </v-icon>
-          <img
-            v-if="img"
-            :src="img"
-            style="width: 55%; height:55%;margin: 0 auto;"
-          />
-        </v-card-media>
+        <v-img
+          v-if="img"
+          :src="img"
+          style="width: 55%; height:55%;margin: 0 auto;"
+        />
 
         <v-card-title primary-title>
           <div>
@@ -27,7 +22,7 @@
         <v-spacer></v-spacer>
         <v-btn
           :to="nuxtTo"
-          flat
+          text
           rounded
           class="btn"
           color="grey"

@@ -1,11 +1,7 @@
 <template>
   <v-layout>
     <v-footer dark height="auto">
-      <v-card
-        flat
-        tile
-        class="indigo lighten-1 white--text text-xs-center footer-card"
-      >
+      <v-card flat tile class=" white--text text-xs-center footer-card">
         <v-card-text>
           <v-btn
             v-for="icon in icons"
@@ -20,11 +16,7 @@
 
         <v-card-text class="white--text pt-0">
           <v-layout row justify-center>
-            <v-btn
-              color="indigo lighten-2"
-              rounded
-              href="mailto:gongbaodd@qq.com"
-            >
+            <v-btn color="lighten-2" rounded href="mailto:gongbaodd@qq.com">
               <v-layout row>
                 <v-icon>mail</v-icon>
                 <v-flex d-flex>g*******@qq.com</v-flex>

@@ -1,7 +1,6 @@
 <template>
   <v-navigation-drawer
     v-model="value"
-    app
     :mobile-break-point="width"
     class="navigation"
   >

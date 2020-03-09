@@ -1,7 +1,7 @@
 <template>
   <div class="text-xs-center">
     <v-dialog v-model="dialog" width="500">
-      <v-btn slot="activator" flat rounded class="btn" color="grey">
+      <v-btn slot="activator" text rounded class="btn" color="grey">
         {{ btnText }}
       </v-btn>
 
@@ -24,7 +24,7 @@
 
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="primary" flat @click="dialog = false">
+          <v-btn color="primary" text @click="dialog = false">
             I accept
           </v-btn>
         </v-card-actions>

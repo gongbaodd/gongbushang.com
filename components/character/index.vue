@@ -2,6 +2,7 @@
   <iframe
     class="scene"
     src="https://gl.gongbushang.com/html/welcome.html"
+    scrolling="no"
   ></iframe>
 </template>
 <script lang="ts">

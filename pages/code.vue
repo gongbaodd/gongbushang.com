@@ -14,24 +14,11 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import Bigger from "../components/link_card/bigger.vue";
-// import { query } from "../consts/sortItem";
 
 @Component({
   components: {
     Bigger
   }
-  // apollo: {
-  //   items: {
-  //     query,
-  //     variables: {
-  //       category: 'code',
-  //     },
-  //     update({ sortItem }) {
-  //       return sortItem;
-  //     },
-  //     fetchPolicy: 'cache-and-network',
-  //   },
-  // },
 })
 class Code extends Vue {}
 export default Code;
