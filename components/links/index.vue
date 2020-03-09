@@ -36,7 +36,7 @@ class Links extends Vue {
                     0 7px 10px -5px rgba(255,152,0,.4)`
       },
       btnText: "了解一下下",
-      to: "https://gongbaodd.github.io/"
+      to: "https://blog.gongbushang.com/"
     },
     {
       title: "我的代码库",
@@ -47,8 +47,8 @@ class Links extends Vue {
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
                     0 7px 10px -5px rgba(0,188,212,.4)`
       },
-      btnText: "一般人我不告诉他",
-      to: "http://gongbushang.com:3000/"
+      btnText: "欢迎来review",
+      to: "https://github.com/gongbaodd"
     },
     {
       title: "找我玩呀",
