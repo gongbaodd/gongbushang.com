@@ -2,11 +2,11 @@
   <v-flex xs12 sm6 lg4 mt-5>
     <v-card>
       <v-layout row>
-        <v-img
+        <!-- <v-img
           v-if="img"
           :src="img"
           style="width: 55%; height:55%;margin: 0 auto;"
-        />
+        /> -->
 
         <v-card-title primary-title>
           <div>
