@@ -4,20 +4,20 @@
   "description": "My cool Nuxt.js project",
   "author": "gongbaodd",
   "private": true,
-  "scripts": {
-    "dev": "nuxt -c nuxt.config.js",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest"
-  },
   "lint-staged": {
-    "*.{js,vue}": "yarn lint"
+    "*.{js,vue}": "yarn lint",
+    "*.js(x)|*.json|*.ts(x)|*.markdown|*.md|*.vue": [
+      "prettier --write"
+    ]
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "emoji-cz"
     }
   },
   "dependencies": {
@@ -38,17 +38,29 @@
     "@nuxtjs/vuetify": "^1.0.0",
     "@types/node": "^13.9.0",
     "@vue/test-utils": "^1.0.0-beta.27",
+    "audit-ci": "^2.5.1",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
+    "commitizen": "^4.0.3",
+    "emoji-cz": "^0.3.1",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.0.0",
+    "husky": "^4.2.3",
     "jest": "^24.1.0",
     "lint-staged": "^10.0.0",
     "prettier": "^1.19.1",
     "ts-node": "^8.6.2",
     "vue-jest": "^4.0.0-0"
+  },
+  "scripts": {
+    "dev": "nuxt -c nuxt.config.js",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "commit": "git-cz"
   }
 }
