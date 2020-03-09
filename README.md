@@ -1,24 +1,22 @@
 # gongbushang.com
 
-## Description
+> My cool Nuxt.js project
 
-description
+## Build Setup
 
-## Installation
+``` bash
+# install dependencies
+$ yarn install
 
-```bash
-$ npm install
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
 ```
 
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode Only server
-$ npm run start:dev
-
-# production mode
-npm run prd
-```
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
