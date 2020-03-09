@@ -7,6 +7,10 @@
   }
 }
 
+body {
+  background-color: #121212;
+}
+
 .fab {
   font-family: FontAwesome;
   font-style: initial;
