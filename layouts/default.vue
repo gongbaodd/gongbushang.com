@@ -16,12 +16,10 @@
 <script lang="ts">
 import Vue from "vue";
 import Toobar from "../components/toolbar/index.vue";
-import Navigation from "../components/navigation/index.vue";
 import Footer from "../components/footer/index.vue";
 export default Vue.extend({
   components: {
     Toobar,
-    Navigation,
     Footer
   }
 });

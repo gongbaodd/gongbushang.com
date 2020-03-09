@@ -1,5 +1,5 @@
 const initState = {
-  drawer: true
+  drawer: false
 };
 
 export const state = () => ({ ...initState });

@@ -17,10 +17,8 @@
         <v-card-text class="white--text pt-0">
           <v-layout row justify-center>
             <v-btn color="lighten-2" rounded href="mailto:gongbaodd@qq.com">
-              <v-layout row>
-                <v-icon>mail</v-icon>
-                <v-flex d-flex>g*******@qq.com</v-flex>
-              </v-layout>
+              <v-icon>mail</v-icon>
+              <v-flex d-flex>g*******@qq.com</v-flex>
             </v-btn>
           </v-layout>
         </v-card-text>
