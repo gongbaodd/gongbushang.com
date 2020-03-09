@@ -5,11 +5,11 @@ const initState = {
 export const state = () => ({ ...initState });
 export const mutations = {
   login(s: typeof initState, token: string) {
-    this.$apolloHelpers.onLogin(token);
+    // this.$apolloHelpers.onLogin(token);
     s.token = token;
   },
   logout(s: typeof initState) {
-    this.$apolloHelpers.onLogout();
+    // this.$apolloHelpers.onLogout();
     s.token = "";
   }
 };

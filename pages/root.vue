@@ -55,7 +55,7 @@ class Root extends Vue {
   @Mutation("login/logout") logout;
 
   mounted() {
-    this.login(this.$apolloHelpers.getToken());
+    // this.login(this.$apolloHelpers.getToken());
   }
 }
 
