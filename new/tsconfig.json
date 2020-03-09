@@ -1,22 +1,37 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "es2018",
+    "baseUrl": "./src",
+    "outDir": "./server",
     "module": "esnext",
-    "moduleResolution": "node",
-    "lib": ["esnext", "esnext.asynciterable", "dom"],
-    "esModuleInterop": true,
-    "allowJs": true,
     "sourceMap": true,
-    "strict": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
-    },
-    "types": ["@types/node", "@nuxt/types", "vuetify"],
+    "allowJs": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "declaration": false,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
     "noImplicitAny": false,
-    "typeRoots": ["./node_modules/@types", "./node_modules/vuetify/types"]
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "lib": ["es2017", "dom", "esnext.asynciterable"]
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "**/*.spec.ts"
+  ]
 }
