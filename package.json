@@ -47,6 +47,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "jest": "^24.1.0",
     "lint-staged": "^10.0.0",
@@ -60,7 +61,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest",
-    "commit": "git-cz"
+    "test": "echo 'text'",
+    "commit": "git-cz",
+    "cp:cname": "sh ./scripts/cp_cname.sh",
+    "deploy": "gh-pages -d www -r https://$GH_TOKEN@github.com/gongbaodd/gongbushang.com.git -b master"
   }
 }

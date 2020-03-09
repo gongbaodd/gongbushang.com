@@ -1,10 +1,10 @@
 # gongbushang.com
 
-> My cool Nuxt.js project
+> My cool Nuxt.js project (不打算再开发 Vue 了...但愿 Vue3 能好一些)
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

@@ -25,8 +25,32 @@
 
         <v-divider></v-divider>
 
-        <v-card-text class="white--text">
-          &copy;2018 — <strong>gongbushang.com</strong>
+        <v-card-text class="white--text text-center">
+          <p>
+            &copy;{{ year }} — <strong>gongbushang.com</strong> built with
+            <a
+              href="https://nuxtjs.org/"
+              rel="noopener noreferer"
+              target="_blank"
+              >Nuxt</a
+            >
+            &
+            <a
+              href="https://vuetifyjs.com/"
+              rel="noopener noreferer"
+              target="_blank"
+              >Vuetify</a
+            >
+          </p>
+          <p>
+            <a
+              href="http://www.beian.miit.gov.cn/"
+              rel="noopener noreferer"
+              target="_blank"
+            >
+              粤ICP备18122266号
+            </a>
+          </p>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -37,6 +61,8 @@ import Vue from "vue";
 import Component from "vue-class-component";
 @Component({})
 class Footer extends Vue {
+  year = new Date().getFullYear();
+
   items = [
     {
       icon: "fab fa-github",
