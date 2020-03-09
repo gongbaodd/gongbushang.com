@@ -17,12 +17,14 @@
     </v-container>
   </v-container>
 </template>
+
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
 import MeCard from "../components/me_card/index.vue";
 import Links from "../components/links/index.vue";
 import cando from "../consts/cando";
+
 @Component({
   components: {
     MeCard,
@@ -36,6 +38,7 @@ class IndexPage extends Vue {
 
 export default IndexPage;
 </script>
+
 <style scoped>
 .cando {
   font-size: 1.2em;

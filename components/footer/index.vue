@@ -20,15 +20,9 @@
 
         <v-card-text class="white--text pt-0">
           <v-layout row justify-center>
-            <v-btn color="indigo lighten-2" round href="tel:13810547993">
-              <v-layout row>
-                <v-icon>phone</v-icon>
-                <v-flex d-flex>+86 13* **** *993</v-flex>
-              </v-layout>
-            </v-btn>
             <v-btn
               color="indigo lighten-2"
-              round
+              rounded
               href="mailto:gongbaodd@qq.com"
             >
               <v-layout row>

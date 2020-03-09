@@ -1,6 +1,6 @@
 <template>
   <v-list-tile>
-    <v-btn flat block large round color="indigo darken-1s" :to="item.url">
+    <v-btn flat block large rounded color="indigo darken-1s" :to="item.url">
       <v-list-tile-action>
         <v-icon>{{ item.icon }}</v-icon>
       </v-list-tile-action>

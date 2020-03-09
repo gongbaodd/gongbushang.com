@@ -27,7 +27,7 @@
       required
     ></v-select>
 
-    <v-btn :disabled="!valid" round dark color="indigo" @click="submit">
+    <v-btn :disabled="!valid" rounded dark color="indigo" @click="submit">
       submit
     </v-btn>
   </v-form>

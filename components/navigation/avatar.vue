@@ -8,7 +8,7 @@
       </v-avatar>
     </v-toolbar-title>
     <v-toolbar-title style="margin-left:0;">
-      <v-btn flat round class="name indigo--text text--lighten-5" to="/root"
+      <v-btn flat rounded class="name indigo--text text--lighten-5" to="/root"
         >宫不上</v-btn
       >
     </v-toolbar-title>

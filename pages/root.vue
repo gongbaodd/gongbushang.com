@@ -16,7 +16,7 @@
         <v-card>
           <v-card-title>登出</v-card-title>
           <v-card-text>
-            <v-btn round dark class="indigo" @click="logout">退出</v-btn>
+            <v-btn rounded dark class="indigo" @click="logout">退出</v-btn>
           </v-card-text>
         </v-card>
       </v-flex>

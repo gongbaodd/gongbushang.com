@@ -25,9 +25,15 @@
 
       <v-card-actions right>
         <v-spacer></v-spacer>
-        <v-btn :to="nuxtTo" flat round class="btn" color="grey" @click="goto">{{
-          btnText
-        }}</v-btn>
+        <v-btn
+          :to="nuxtTo"
+          flat
+          rounded
+          class="btn"
+          color="grey"
+          @click="goto"
+          >{{ btnText }}</v-btn
+        >
         <Dialog v-if="dlgImg" :btn-text="btnText" />
       </v-card-actions>
     </v-card>

@@ -16,7 +16,7 @@
         </v-card-title>
 
         <v-card-actions v-if="btnText" class="bigger-action">
-          <v-btn flat color="indigo" round @click="goto">{{ btnText }}</v-btn>
+          <v-btn flat color="indigo" rounded @click="goto">{{ btnText }}</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>

@@ -1,7 +1,7 @@
 <template>
   <div class="text-xs-center">
     <v-dialog v-model="dialog" width="500">
-      <v-btn slot="activator" flat round class="btn" color="grey">
+      <v-btn slot="activator" flat rounded class="btn" color="grey">
         {{ btnText }}
       </v-btn>
 
