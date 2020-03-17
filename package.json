@@ -68,6 +68,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "test": "echo 'text'",
+    "cy:test": "sh scripts/run_cypress.sh",
     "commit": "git-cz",
     "cp:cname": "sh ./scripts/cp_cname.sh",
     "deploy:coding": "sh ./scripts/deploy_to_coding.sh",

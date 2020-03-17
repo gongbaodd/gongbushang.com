@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: script
   script:
-    - yarn install && yarn generate && yarn cp:cname && yarn deploy && yarn deploy:coding
+    - yarn install && yarn generate && yarn cy:test && yarn cp:cname && yarn deploy && yarn deploy:coding
   skip_cleanup: true
   on:
     branch: static
