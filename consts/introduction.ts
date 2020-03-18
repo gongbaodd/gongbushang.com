@@ -33,7 +33,8 @@ export const introduction = {
       "有人分享了Rust在Web应用前景",
       "有好看的设计稿",
       "又有新的播客出现了（ 最好和开发有关）",
-      "WSL on Windows"
+      "WSL on Windows",
+      "哈利波特出同人了"
     ],
     eng: [
       "There 's an update in TypeScript.",
@@ -43,7 +44,8 @@ export const introduction = {
       "Rust can do more in web development.",
       "A new design on dribbble.",
       "A new podcast(better be dev - related).",
-      "WSL on Windows"
+      "WSL on Windows",
+      "New posts on Pottermore"
     ]
   }
 };
