@@ -14,14 +14,16 @@ export const introduction = {
       "扰民的口琴手",
       "手残级ukulele爱好者",
       "随手画画的泥石流",
-      "博物馆爱好者"
+      "博物馆爱好者",
+      "精神拉文克劳"
     ],
     eng: [
       "Front-end developer in web.",
       "Harmonica Amature.",
       "Ukulele Amature.",
       "Schetch everywhere.",
-      "Museum lover."
+      "Museum lover.",
+      "Want to learn magic in Ravenclaw."
     ]
   },
   topic: {
