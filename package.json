@@ -46,6 +46,7 @@
     "babel-jest": "24.9.0",
     "commitizen": "4.0.3",
     "emoji-cz": "0.3.1",
+    "es-check": "^5.1.0",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-nuxt": "0.5.1",
@@ -72,6 +73,7 @@
     "commit": "git-cz",
     "cp:cname": "sh ./scripts/cp_cname.sh",
     "deploy:coding": "sh ./scripts/deploy_to_coding.sh",
+    "es:check": "es-check",
     "deploy": "gh-pages -d www -r https://$GH_TOKEN@github.com/gongbaodd/gongbushang.com.git -b master"
   }
 }
