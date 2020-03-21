@@ -1,7 +1,7 @@
 <template>
   <iframe
     class="scene"
-    src="https://gl.gongbushang.com/html/welcome.html"
+    src="https://gl.gongbushang.com/welcome"
     scrolling="no"
   ></iframe>
 </template>
