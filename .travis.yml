@@ -1,6 +1,5 @@
 language: node_js
 script:
-  - yarn install
   - yarn generate
   - yarn es:check
   - yarn cy:test
