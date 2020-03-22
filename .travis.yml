@@ -1,8 +1,9 @@
 language: node_js
-node_js:
-  - "12.16"
-deploy:
-  provider: script
-  script:
-    - yarn install && yarn generate && yarn es:check && yarn cy:test && yarn cp:cname && yarn deploy && yarn deploy:coding
-  skip_cleanup: true
+script:
+  - yarn install
+  - yarn generate
+  - yarn es:check
+  - yarn cy:test
+  - yarn cp:cname
+  - yarn deploy
+  - yarn deploy:coding
