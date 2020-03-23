@@ -68,7 +68,7 @@ class Links extends Vue {
       icon: "",
       iconStyle: {},
       btnText: "了解一下",
-      nuxtTo: "https://algorithm.gongbushang.com"
+      to: "https://algorithm.gongbushang.com"
     },
     {
       title: "WebGL实验室",
@@ -76,7 +76,7 @@ class Links extends Vue {
       icon: "",
       iconStyle: {},
       btnText: "欢迎参观",
-      nuxtTo: "https://graphics.gongbushang.com"
+      to: "https://graphics.gongbushang.com"
     }
   ];
 }
