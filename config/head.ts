@@ -49,12 +49,5 @@ export default {
       type: "image/x-icon",
       href: "icon.png"
     }
-    // {
-    //   rel: "stylesheet",
-    //   as: "style",
-    //   href:
-    //     "https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css",
-    //   onload: ""
-    // }
   ]
 };

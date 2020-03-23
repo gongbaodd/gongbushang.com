@@ -19,20 +19,21 @@ export default {
     "@nuxtjs/eslint-module",
     "@bazzite/nuxt-optimized-images",
     "@nuxtjs/sentry",
-    "@nuxtjs/google-analytics"
+    "@nuxtjs/google-analytics",
+    "nuxt-helmet"
   ],
-  modules: [
-    "@nuxtjs/pwa",
-    "@nuxtjs/dotenv",
-    ["@dansmaculotte/nuxt-security", { csp }]
-  ],
+  modules: ["@nuxtjs/pwa", "@nuxtjs/dotenv"],
   vuetify,
   server,
   generate,
   optimizedImages,
   sentry,
   googleAnalytics,
+  helmet: {},
   build: {
     extend(config, ctx) {}
+  },
+  render: {
+    csp
   }
 };

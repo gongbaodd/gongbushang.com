@@ -1,7 +1,13 @@
 export default {
-  directives: {
-    defaultSrc: ["'self'", "utteranc.es", "*.utteranc.es", "fonts.gstatic.com"],
-    scriptSrc: [
+  addMeta: true,
+  policies: {
+    "default-src": [
+      "'self'",
+      "utteranc.es",
+      "*.utteranc.es",
+      "fonts.gstatic.com"
+    ],
+    "script-src": [
       "'self'",
       "www.google-analytics.com",
       "*.sentry.io",
@@ -10,8 +16,8 @@ export default {
       "*.utteranc.es",
       "*.cloudflareinsights.com"
     ],
-    imgSrc: ["*", "data:", "*.cloudflareinsights.com"],
-    styleSrc: [
+    "img-src": ["*", "data:", "*.cloudflareinsights.com"],
+    "style-src": [
       "'self'",
       "'unsafe-inline'",
       "utteranc.es",

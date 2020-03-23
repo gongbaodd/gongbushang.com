@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "@bazzite/nuxt-optimized-images": "0.3.0",
-    "@dansmaculotte/nuxt-security": "^0.0.1-0",
     "@nuxtjs/dotenv": "1.4.1",
     "@nuxtjs/google-analytics": "2.2.3",
     "@nuxtjs/pwa": "3.0.0-beta.20",
@@ -31,6 +30,7 @@
     "graphql-tag": "2.10.3",
     "nuxt": "2.12.0",
     "nuxt-class-component": "1.3.0",
+    "nuxt-helmet": "^1.2.3",
     "vue-class-component": "7.2.3",
     "vue-property-decorator": "8.4.1",
     "vuex-class": "0.3.2"
