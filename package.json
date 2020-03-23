@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@bazzite/nuxt-optimized-images": "0.3.0",
+    "@dansmaculotte/nuxt-security": "^0.0.1-0",
     "@nuxtjs/dotenv": "1.4.1",
     "@nuxtjs/google-analytics": "2.2.3",
     "@nuxtjs/pwa": "3.0.0-beta.20",

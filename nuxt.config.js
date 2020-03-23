@@ -5,6 +5,7 @@ import generate from "./config/generate.ts";
 import optimizedImages from "./config/optimizedImages.ts";
 import sentry from "./config/sentry.ts";
 import googleAnalytics from "./config/googleAnalytics.ts";
+import csp from "./config/csp.ts";
 
 export default {
   mode: "spa",
@@ -20,7 +21,11 @@ export default {
     "@nuxtjs/sentry",
     "@nuxtjs/google-analytics"
   ],
-  modules: ["@nuxtjs/pwa", "@nuxtjs/dotenv"],
+  modules: [
+    "@nuxtjs/pwa",
+    "@nuxtjs/dotenv",
+    ["@dansmaculotte/nuxt-security", { csp }]
+  ],
   vuetify,
   server,
   generate,
