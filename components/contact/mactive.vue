@@ -107,7 +107,7 @@ class MActive extends Vue {
       subTitle: "宫不上叔",
       btnText: "爱咋咋地吧",
       img: douban,
-      to: "https://www.douban.com/people/58098219/",
+      to: "https://www.douban.com/people/83717128/",
       iconStyle: {
         background: "rgb(247, 247, 247)",
         boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`

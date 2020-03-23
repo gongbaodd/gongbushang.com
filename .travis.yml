@@ -1,6 +1,6 @@
 language: node_js
 script:
-  - yarn generate
+  - yarn generate:prd
   - yarn es:check
   - yarn cy:test
   - yarn cp:cname

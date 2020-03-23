@@ -66,7 +66,7 @@
     "dev": "nuxt -c nuxt.config.js",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate:prd": "NODE_ENV=production nuxt generate",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "test": "echo 'text'",
     "cy:test": "sh scripts/run_cypress.sh",

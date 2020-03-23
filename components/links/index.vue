@@ -61,6 +61,22 @@ class Links extends Vue {
       },
       btnText: "来啊来啊",
       nuxtTo: "/contact"
+    },
+    {
+      title: "Typescript算法",
+      subTitle: "用Typescript实现算法",
+      icon: "",
+      iconStyle: {},
+      btnText: "了解一下",
+      nuxtTo: "https://algorithm.gongbushang.com"
+    },
+    {
+      title: "WebGL实验室",
+      subTitle: "试验WebGL",
+      icon: "",
+      iconStyle: {},
+      btnText: "欢迎参观",
+      nuxtTo: "https://graphics.gongbushang.com"
     }
   ];
 }
