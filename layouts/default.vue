@@ -30,6 +30,6 @@ export default Vue.extend({
 <style scoped>
 .nuxt-content {
   min-height: 100%;
-  min-height: calc(100% - 64px);
+  min-height: calc(100% - 224px);
 }
 </style>

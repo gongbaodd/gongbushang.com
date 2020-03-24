@@ -4,11 +4,13 @@ import Component from "vue-class-component";
 import MeCard from "../components/me_card/index.vue";
 import Links from "../components/links/index.vue";
 import cando from "../consts/cando";
+import Utterances from "../components/Utteraces.vue";
 
 @Component({
   components: {
     MeCard,
     Links,
+    Utterances,
   },
 })
 class IndexPage extends Vue {
@@ -23,6 +25,7 @@ export default IndexPage;
   <v-container fluid>
     <MeCard />
     <Links />
+
     <v-container grid-list-xl>
       <v-card>
         <v-card-title>
@@ -34,6 +37,12 @@ export default IndexPage;
             {{ doItem.title }}
           </span>
         </v-card-text>
+      </v-card>
+    </v-container>
+
+    <v-container grid-list-xl>
+      <v-card>
+        <Utterances />
       </v-card>
     </v-container>
   </v-container>
