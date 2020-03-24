@@ -10,5 +10,10 @@ export default Vue.extend({
 </script>
 
 <template>
-  <GithubCorner href="https://github.com/gongbaodd/gongbushang.com" />
+  <GithubCorner
+    style="z-index: 1;"
+    url="https://github.com/gongbaodd/gongbushang.com"
+    corner-color="#3f51b5"
+    git-color="#fff"
+  />
 </template>
