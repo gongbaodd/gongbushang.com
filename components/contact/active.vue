@@ -26,8 +26,8 @@ import Toobar from "./toobar.vue";
 @Component({
   components: {
     Toobar,
-    LinkCard
-  }
+    LinkCard,
+  },
 })
 class Active extends Vue {
   click() {}
@@ -40,8 +40,8 @@ class Active extends Vue {
       to: "https://weibo.com/u/2312151777",
       iconStyle: {
         background: "linear-gradient(60deg, rgb(255, 38, 38), rgb(251, 0, 0))",
-        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "微信",
@@ -50,8 +50,8 @@ class Active extends Vue {
       iconStyle: {
         background: "linear-gradient(60deg,#66bb6a,#43a047)",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(76,175,80,.4)`
-      }
+                    0 7px 10px -5px rgba(76,175,80,.4)`,
+      },
     },
     {
       title: "即刻",
@@ -60,8 +60,8 @@ class Active extends Vue {
       iconStyle: {
         background: "#ffe410",
         boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(236, 239, 242) 0px 7px 10px -5px`,
-        justifyContent: "center"
-      }
+        justifyContent: "center",
+      },
     },
     {
       title: "Twitter",
@@ -72,8 +72,8 @@ class Active extends Vue {
       iconStyle: {
         background:
           "linear-gradient(60deg, rgb(85, 172, 238), rgb(84, 171, 213))",
-        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(138, 195, 252) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(138, 195, 252) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "V2EX",
@@ -83,8 +83,8 @@ class Active extends Vue {
       to: "https://www.v2ex.com/member/gongbaodd",
       iconStyle: {
         background: "rgb(247, 247, 247)",
-        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "instagram",
@@ -94,9 +94,9 @@ class Active extends Vue {
       to: "https://www.instagram.com/mia_takeshi/",
       iconStyle: {
         background: "linear-gradient(60deg, rgb(156, 39, 176), #ffb307)",
-        boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(156,39,176,.4)`
-      }
-    }
+        boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(156,39,176,.4)`,
+      },
+    },
   ];
 }
 

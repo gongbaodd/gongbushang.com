@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <v-footer dark height="auto">
-      <v-card flat tile class=" white--text text-xs-center footer-card">
+      <v-card flat tile class="white--text text-xs-center footer-card">
         <v-card-text>
           <v-btn
             v-for="icon in icons"
@@ -66,15 +66,15 @@ class Footer extends Vue {
   items = [
     {
       icon: "fab fa-github",
-      to: "https://github.com/gongbaodd"
+      to: "https://github.com/gongbaodd",
     },
     {
       icon: "fab fa-twitter",
-      to: "https://twitter.com/gongbaodd"
+      to: "https://twitter.com/gongbaodd",
     },
     {
       icon: "fab fa-weibo",
-      to: "https://weibo.com/u/2312151777"
+      to: "https://weibo.com/u/2312151777",
     },
     // {
     //   icon: 'fab fa-facebook',
@@ -90,8 +90,8 @@ class Footer extends Vue {
     // },
     {
       icon: "fab fa-instagram",
-      to: "https://www.instagram.com/mia_takeshi/"
-    }
+      to: "https://www.instagram.com/mia_takeshi/",
+    },
   ];
 
   icons = this.items.map((i) => i.icon);

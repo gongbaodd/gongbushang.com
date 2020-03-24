@@ -62,14 +62,14 @@ class FlagForm extends Vue {
       name: "",
       nameRules: [
         (v) => !!v || "Name is required",
-        (v) => (v && v.length <= 10) || "Name must be less than 10 characters"
+        (v) => (v && v.length <= 10) || "Name must be less than 10 characters",
       ],
       url: "",
       urlRules: [(v) => !!v || "url is required"],
       imgUrl: "",
       imgRules: [(v) => !!v || "img is required"],
       select: null,
-      items: ["code", "map", "note", "canvas", "gym", "japanese", "english"]
+      items: ["code", "map", "note", "canvas", "gym", "japanese", "english"],
     };
   }
 

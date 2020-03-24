@@ -48,7 +48,7 @@ class Form extends Vue {
     return {
       valid: true,
       password: "",
-      pwdRules: [(v) => !!v || "password is required"]
+      pwdRules: [(v) => !!v || "password is required"],
     };
   }
 

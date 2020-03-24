@@ -10,44 +10,44 @@ export default {
   title: "宫不上叔",
   meta: [
     {
-      charset: "utf-8"
+      charset: "utf-8",
     },
     {
       name: "viewport",
       content:
-        "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+        "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui",
     },
     {
       hid: "description",
       name: "description",
-      content: "宫不上的诗歌，宫不上的远方，宫不上的年华"
+      content: "宫不上的诗歌，宫不上的远方，宫不上的年华",
     },
     {
       name: "summary",
-      content: metaSum
+      content: metaSum,
     },
     {
       name: "author",
-      content: metaAuthor
+      content: metaAuthor,
     },
     {
       name: "topic",
-      content: metaTopic
+      content: metaTopic,
     },
     {
       name: "og:email",
-      content: "gongbaodd@qq.com"
+      content: "gongbaodd@qq.com",
     },
     {
       name: "og:type",
-      content: metaTopic
-    }
+      content: metaTopic,
+    },
   ],
   link: [
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "icon.png"
-    }
-  ]
+      href: "icon.png",
+    },
+  ],
 };

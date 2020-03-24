@@ -25,8 +25,8 @@ import Toobar from "./toobar.vue";
 @Component({
   components: {
     Toobar,
-    LinkCard
-  }
+    LinkCard,
+  },
 })
 class MActive extends Vue {
   click() {}
@@ -40,8 +40,8 @@ class MActive extends Vue {
       to: "https://www.codewars.com/users/gongbaodd",
       iconStyle: {
         background: "#262626",
-        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "Github",
@@ -52,8 +52,8 @@ class MActive extends Vue {
       iconStyle: {
         background: "#232323",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(0,0,0,.4)`
-      }
+                    0 7px 10px -5px rgba(0,0,0,.4)`,
+      },
     },
     {
       title: "bilibili",
@@ -64,8 +64,8 @@ class MActive extends Vue {
         background: "#fff",
 
         boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(236, 239, 242) 0px 7px 10px -5px`,
-        justifyContent: "center"
-      }
+        justifyContent: "center",
+      },
     },
     {
       title: "Facebook",
@@ -75,8 +75,8 @@ class MActive extends Vue {
       to: "https://www.facebook.com/profile.php?id=100005220018235",
       iconStyle: {
         background: "linear-gradient(60deg, #37538d, #2a3f6c)",
-        boxShadow: `0 14px 26px -12px rgba(59,89,152,.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(59,89,152,.2)`
-      }
+        boxShadow: `0 14px 26px -12px rgba(59,89,152,.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(59,89,152,.2)`,
+      },
     },
     {
       title: "开源中国",
@@ -87,8 +87,8 @@ class MActive extends Vue {
       iconStyle: {
         background: "linear-gradient(60deg,#66bb6a,#43a047)",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(76,175,80,.4)`
-      }
+                    0 7px 10px -5px rgba(76,175,80,.4)`,
+      },
     },
     {
       title: "CODING",
@@ -99,8 +99,8 @@ class MActive extends Vue {
       to: "https://coding.net/u/gongbaodd",
       iconStyle: {
         background: "rgb(247, 247, 247)",
-        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "豆瓣",
@@ -110,8 +110,8 @@ class MActive extends Vue {
       to: "https://www.douban.com/people/83717128/",
       iconStyle: {
         background: "rgb(247, 247, 247)",
-        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgba(0, 0, 0, 0.14) 0px 4px 20px 0px, rgb(0, 0, 0, 0.2) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "网易云音乐",
@@ -121,8 +121,8 @@ class MActive extends Vue {
       to: "http://music.163.com/#/user/home?id=46729015",
       iconStyle: {
         background: "linear-gradient(60deg, rgb(255, 38, 38), rgb(251, 0, 0))",
-        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`
-      }
+        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`,
+      },
     },
     {
       title: "drbbble",
@@ -133,9 +133,9 @@ class MActive extends Vue {
       iconStyle: {
         background:
           "linear-gradient(60deg, rgb(235, 99, 175), rgb(255, 0, 177))",
-        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`
-      }
-    }
+        boxShadow: `rgb(242, 236, 237) 0px 4px 20px 0px, rgba(255, 0, 0, 0.4) 0px 7px 10px -5px`,
+      },
+    },
   ];
 }
 

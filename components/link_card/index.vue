@@ -42,8 +42,8 @@ import { Prop } from "vue-property-decorator";
 import Dialog from "./dialog.vue";
 @Component({
   components: {
-    Dialog
-  }
+    Dialog,
+  },
 })
 class LinkCard extends Vue {
   @Prop(String) title: string;

@@ -9,7 +9,7 @@
         </v-container>
 
         <v-card>
-          <v-card-title primary-title style="height:200px;" class="card-title">
+          <v-card-title primary-title style="height: 200px;" class="card-title">
             <div class="head-title">
               <div class="headline head-1">
                 欢迎来到
@@ -74,8 +74,8 @@ import Character from "../character/index.vue";
 import { introduction as Meta } from "../../consts/introduction";
 @Component({
   components: {
-    Character
-  }
+    Character,
+  },
 })
 class MeCard extends Vue {
   show = true;

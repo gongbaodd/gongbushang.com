@@ -21,8 +21,8 @@ import Component from "vue-class-component";
 import LinkCard from "../link_card/index.vue";
 @Component({
   components: {
-    LinkCard
-  }
+    LinkCard,
+  },
 })
 class Links extends Vue {
   items = [
@@ -33,10 +33,10 @@ class Links extends Vue {
       iconStyle: {
         background: "linear-gradient(60deg,#ffa726,#fb8c00)",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(255,152,0,.4)`
+                    0 7px 10px -5px rgba(255,152,0,.4)`,
       },
       btnText: "了解一下下",
-      to: "https://blog.gongbushang.com/"
+      to: "https://blog.gongbushang.com/",
     },
     {
       title: "我的代码库",
@@ -45,10 +45,10 @@ class Links extends Vue {
       iconStyle: {
         background: "linear-gradient(60deg,#26c6da,#00acc1)",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(0,188,212,.4)`
+                    0 7px 10px -5px rgba(0,188,212,.4)`,
       },
       btnText: "欢迎来review",
-      to: "https://github.com/gongbaodd"
+      to: "https://github.com/gongbaodd",
     },
     {
       title: "找我玩呀",
@@ -57,10 +57,10 @@ class Links extends Vue {
       iconStyle: {
         background: "linear-gradient(60deg,#66bb6a,#43a047)",
         boxShadow: `0 4px 20px 0 rgba(0,0,0,.14),
-                    0 7px 10px -5px rgba(76,175,80,.4)`
+                    0 7px 10px -5px rgba(76,175,80,.4)`,
       },
       btnText: "来啊来啊",
-      nuxtTo: "/contact"
+      nuxtTo: "/contact",
     },
     {
       title: "Typescript算法",
@@ -68,7 +68,7 @@ class Links extends Vue {
       icon: "",
       iconStyle: {},
       btnText: "了解一下",
-      to: "https://algorithm.gongbushang.com"
+      to: "https://algorithm.gongbushang.com",
     },
     {
       title: "WebGL实验室",
@@ -76,8 +76,8 @@ class Links extends Vue {
       icon: "",
       iconStyle: {},
       btnText: "欢迎参观",
-      to: "https://graphics.gongbushang.com"
-    }
+      to: "https://graphics.gongbushang.com",
+    },
   ];
 }
 

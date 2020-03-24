@@ -1,3 +1,24 @@
+<script lang="ts">
+import Vue from "vue";
+import Component from "vue-class-component";
+import MeCard from "../components/me_card/index.vue";
+import Links from "../components/links/index.vue";
+import cando from "../consts/cando";
+
+@Component({
+  components: {
+    MeCard,
+    Links,
+  },
+})
+class IndexPage extends Vue {
+  doTitle = "技能树";
+  doItems = cando;
+}
+
+export default IndexPage;
+</script>
+
 <template>
   <v-container fluid>
     <MeCard />
@@ -9,7 +30,7 @@
         </v-card-title>
         <v-card-text class="indigo--text cando">
           <span v-for="doItem in doItems" :key="doItem.title">
-            <img :src="doItem.img" style="with:1em;height:1em;" />
+            <img :src="doItem.img" style="with: 1em; height: 1em;" />
             {{ doItem.title }}
           </span>
         </v-card-text>
@@ -17,27 +38,6 @@
     </v-container>
   </v-container>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import Component from "vue-class-component";
-import MeCard from "../components/me_card/index.vue";
-import Links from "../components/links/index.vue";
-import cando from "../consts/cando";
-
-@Component({
-  components: {
-    MeCard,
-    Links
-  }
-})
-class IndexPage extends Vue {
-  doTitle = "技能树";
-  doItems = cando;
-}
-
-export default IndexPage;
-</script>
 
 <style scoped>
 .cando {

@@ -1,6 +1,6 @@
 // tslint:disable:no-string-literal
 const initState = {
-  token: ""
+  token: "",
 };
 export const state = () => ({ ...initState });
 export const mutations = {
@@ -11,5 +11,5 @@ export const mutations = {
   logout(s: typeof initState) {
     // this.$apolloHelpers.onLogout();
     s.token = "";
-  }
+  },
 };

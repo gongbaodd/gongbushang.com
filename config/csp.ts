@@ -5,7 +5,7 @@ export default {
       "'self'",
       "utteranc.es",
       "*.utteranc.es",
-      "fonts.gstatic.com"
+      "fonts.gstatic.com",
     ],
     "script-src": [
       "'self'",
@@ -14,7 +14,7 @@ export default {
       "'unsafe-inline'",
       "utteranc.es",
       "*.utteranc.es",
-      "*.cloudflareinsights.com"
+      "*.cloudflareinsights.com",
     ],
     "img-src": ["*", "data:", "*.cloudflareinsights.com"],
     "style-src": [
@@ -23,7 +23,7 @@ export default {
       "utteranc.es",
       "*.utteranc.es",
       "cdn.jsdelivr.net",
-      "fonts.googleapis.com"
-    ]
-  }
+      "fonts.googleapis.com",
+    ],
+  },
 };

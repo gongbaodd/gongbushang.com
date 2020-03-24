@@ -1,3 +1,3 @@
 export default {
-  dir: "www"
+  dir: "www",
 };

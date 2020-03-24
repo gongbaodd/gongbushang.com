@@ -1,7 +1,21 @@
+<script lang="ts">
+import Vue from "vue";
+import Toobar from "../components/toolbar/index.vue";
+import Footer from "../components/footer/index.vue";
+import Github from "../components/Github.vue";
+export default Vue.extend({
+  components: {
+    Toobar,
+    Footer,
+    Github,
+  },
+});
+</script>
+
 <template>
   <v-app class="blue-grey lighten-5">
+    <Github />
     <Toobar />
-    <Navigation />
     <v-content app>
       <v-layout column fill-height>
         <v-flex class="nuxt-content">
@@ -12,18 +26,6 @@
     </v-content>
   </v-app>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import Toobar from "../components/toolbar/index.vue";
-import Footer from "../components/footer/index.vue";
-export default Vue.extend({
-  components: {
-    Toobar,
-    Footer
-  }
-});
-</script>
 
 <style scoped>
 .nuxt-content {

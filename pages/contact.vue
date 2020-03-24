@@ -13,8 +13,8 @@ import MActive from "../components/contact/mactive.vue";
 @Component({
   components: {
     Active,
-    MActive
-  }
+    MActive,
+  },
 })
 class Contact extends Vue {}
 export default Contact;

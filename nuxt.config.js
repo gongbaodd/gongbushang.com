@@ -20,7 +20,7 @@ export default {
     "@bazzite/nuxt-optimized-images",
     "@nuxtjs/sentry",
     "@nuxtjs/google-analytics",
-    "nuxt-helmet"
+    "nuxt-helmet",
   ],
   modules: ["@nuxtjs/pwa", "@nuxtjs/dotenv"],
   vuetify,
@@ -31,9 +31,9 @@ export default {
   googleAnalytics,
   helmet: {},
   build: {
-    extend(config, ctx) {}
+    extend(config, ctx) {},
   },
   render: {
-    csp
-  }
+    csp,
+  },
 };

@@ -1,3 +1,3 @@
 export default {
-  optimizeImages: true
+  optimizeImages: true,
 };

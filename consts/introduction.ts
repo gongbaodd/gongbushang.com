@@ -6,7 +6,7 @@ export const introduction = {
     "MiaTakeshi",
     "gongbaodd@qq.com",
     "gongbaodd@live.cn",
-    "gongbaodd@gmail.com"
+    "gongbaodd@gmail.com",
   ],
   title: {
     chs: [
@@ -15,7 +15,7 @@ export const introduction = {
       "手残级ukulele爱好者",
       "随手画画的泥石流",
       "博物馆爱好者",
-      "精神拉文克劳"
+      "精神拉文克劳",
     ],
     eng: [
       "Front-end developer in web.",
@@ -23,8 +23,8 @@ export const introduction = {
       "Ukulele Amature.",
       "Schetch everywhere.",
       "Museum lover.",
-      "Want to learn magic in Ravenclaw."
-    ]
+      "Want to learn magic in Ravenclaw.",
+    ],
   },
   topic: {
     chs: [
@@ -36,7 +36,7 @@ export const introduction = {
       "有好看的设计稿",
       "又有新的播客出现了（ 最好和开发有关）",
       "WSL on Windows",
-      "哈利波特出同人了"
+      "哈利波特出同人了",
     ],
     eng: [
       "There 's an update in TypeScript.",
@@ -47,7 +47,7 @@ export const introduction = {
       "A new design on dribbble.",
       "A new podcast(better be dev - related).",
       "WSL on Windows",
-      "New posts on Pottermore"
-    ]
-  }
+      "New posts on Pottermore",
+    ],
+  },
 };
