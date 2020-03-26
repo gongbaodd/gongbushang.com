@@ -78,6 +78,14 @@ class Links extends Vue {
       btnText: "欢迎参观",
       to: "https://graphics.gongbushang.com",
     },
+    {
+      title: "CSS实验室",
+      subTitle: "实验CSS",
+      icon: "",
+      iconStyle: {},
+      btnText: "欢迎参观",
+      to: "https://css.gongbushang.com",
+    },
   ];
 }
 
