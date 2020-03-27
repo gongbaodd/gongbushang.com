@@ -1,3 +1,23 @@
+<script lang="ts">
+import Character from "../character/index.vue";
+import { introduction as Meta } from "../../consts/introduction";
+
+const MeCard = {
+  name: "MeCard",
+  components: {
+    Character,
+  },
+  data() {
+    return {
+      title: Meta.title,
+      topic: Meta.topic,
+    };
+  },
+};
+
+export default MeCard;
+</script>
+
 <template>
   <v-container class="me-card-container" grid-list-xl>
     <v-layout row>
@@ -67,24 +87,7 @@
     </v-layout>
   </v-container>
 </template>
-<script lang="ts">
-import Vue from "vue";
-import Component from "vue-class-component";
-import Character from "../character/index.vue";
-import { introduction as Meta } from "../../consts/introduction";
-@Component({
-  components: {
-    Character,
-  },
-})
-class MeCard extends Vue {
-  show = true;
-  title = Meta.title;
-  topic = Meta.topic;
-}
 
-export default MeCard;
-</script>
 <style scoped>
 .me-card {
   position: relative;
