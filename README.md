@@ -4,6 +4,10 @@
 <img src="https://img.shields.io/travis/com/gongbaodd/gongbushang.com?style=flat-square" alt="travis" />
 </a>
 
+<a href="https://codecov.io/gh/gongbaodd/gongbushang.com">
+    <img src="https://img.shields.io/codecov/c/github/gongbaodd/gongbushang.com?style=flat-square" alt="codecov" />
+</a>
+
 > My cool Nuxt.js project (不打算再开发 Vue 了...但愿 Vue3 能好一些)
 
 ## Build Setup
